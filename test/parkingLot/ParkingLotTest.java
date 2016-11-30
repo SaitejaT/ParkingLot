@@ -16,8 +16,10 @@ public class ParkingLotTest {
 
   @Test
   public void shouldBeAbleToPark(){
+
     ParkingLot parkingLot = new ParkingLot(20);
     assertTrue(parkingLot.park(vehicle));
+
   }
   @Test
   public void shouldNotBeAbleToPark(){
